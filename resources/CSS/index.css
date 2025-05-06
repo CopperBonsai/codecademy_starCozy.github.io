@@ -1,0 +1,152 @@
+html {
+    font-size: 16px;
+}
+
+.bruno-ace-regular {
+    font-family: "Bruno Ace", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    font-family: "Bruno Ace", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #000;
+    color: #7dd6ff;
+    margin: 0;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+/*nav*/
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+nav img {
+    width: 50px;
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #75d0fa;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+a {
+    text-decoration: none;
+    color: #89daff;
+    font-size: 1.2rem;
+    transition: color 100ms ease;
+}
+
+a:hover {
+    color: #c1eafd;
+}
+
+/*hero*/
+hero {
+    background-image: url("../images/illiumTemple_jpg.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 40rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border-top: 1px solid #7dd6ff;
+    border-bottom: 1px solid #7dd6ff;
+}
+
+hero #heroText {
+    background-color: #000000;
+    padding: 0.5rem;
+}
+
+/*Kyber Crystals*/
+#kyberTypesHeader {
+    text-align: center;
+    padding: 1rem;
+}
+
+#kyberTypes {
+    padding: 0.5rem 1rem 1rem 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#kyberTypes h2 {
+    text-align: center;
+    grid-column: span 6; 
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+#kyberTypes .kyberType {
+    text-align: center;
+    max-width: 300px;
+    min-width: 200px;
+}
+
+#kyberTypes img {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 10px;
+
+}
+
+/*Source*/
+#kyberSource {
+    background-image: url("../images/illum_surface.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 40rem;
+    text-align: center;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#kyberSource #ilumText {
+    background-color: #000000;
+    padding: 1rem;
+    color: #7dd6ff;
+    width: 70%;
+    border-radius: 10px;
+}
+
+#kyberSource h1{
+    color: #7dd6ff;
+    margin: 1rem 0;
+}
+
+/*footer*/
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 2rem;
+}
+
+footer .footerText {
+    justify-content: space-between;
+}
